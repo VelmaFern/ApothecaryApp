@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apothecary AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Apothecary AI</h1>
+        <p>Find the perfect home remedy for your symptoms.</p>
+    </header>
+    
+    <main>
+        <form id="symptom-form">
+            <label for="symptom">Enter your symptom:</label>
+            <input type="text" id="symptom" name="symptom" placeholder="e.g., headache, cough" required>
+            <button type="submit">Find Remedies</button>
+        </form>
+
+        <div id="remedy-suggestions">
+            <!-- Suggested remedies will appear here -->
+        </div>
+    </main>
+
+    <footer>
+        <p>Powered by Apothecary AI</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
